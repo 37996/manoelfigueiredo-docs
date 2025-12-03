@@ -11,3 +11,7 @@ Explore os conteúdos:
 - **APIs internas e fluxos profissionais**
 
 Use o menu ao lado para navegar entre os temas.
+
+{% include "partials/hero.html" %}
+{% include "partials/cards.html" %}
+{% include "partials/whatsapp.html" %}
