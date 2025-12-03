@@ -10,7 +10,7 @@ O objetivo é consolidar conhecimento, fornecer referência para clientes e parc
 
 ### **1. LG Build & Academy – Automação Total do Negócio**
 **Status:** Publicado  
-**Link:** [`./use-cases/lg-build-academy-automacao-total.md`](use-cases/lg-build-academy-automacao-total.md)
+**Link:** [`./use-cases/lg-beauty-academy-automacao-total.md`](use-cases/lg-beauty-academy-automacao-total.md)
 
 Implementação completa de um ecossistema de automação que transformou a operação da LG Build & Academy, resultando em:
 
