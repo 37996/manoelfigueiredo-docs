@@ -1,0 +1,45 @@
+site_name: MF Tech Solutions Docs
+site_url: https://git.mftechsolutions.pt
+site_author: MF Tech Solutions
+theme:
+  name: material
+  language: pt
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: cyan
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+    - header.autohide
+
+nav:
+  - Início: index.md
+  - Use Cases:
+      - LG Build & Academy: use-cases/lg-beauty-academy-automacao-total.md
+  - Guias:
+      - Odoo + n8n: guias/odoo-n8n.md
+      - Pagamentos MB WAY: guias/pagamentos-mbway.md
+  - API:
+      - Introdução: api/index.md
+  - Empresa:
+      - Sobre: empresa/sobre.md
+
+plugins:
+  - search
+  - tags
+  - minify:
+      minify_html: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/37996/manoelfigueiredo-docs
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/manoel-figueiredo
+    - icon: fontawesome/solid/globe
+      link: https://mftechsolutions.pt
