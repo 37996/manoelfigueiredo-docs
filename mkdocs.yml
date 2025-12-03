@@ -1,93 +1,52 @@
-site_name: MF Tech Solutions Docs
-site_url: https://git.mftechsolutions.pt
-site_author: MF Tech Solutions
+name: Deploy MKDocs to GitHub Pages
 
-theme:
-  name: material
-  language: pt
-  logo: assets/logo.png
-  favicon: assets/favicon.png
-  palette:
-    scheme: slate
-    primary: indigo
-    accent: cyan
-  features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.sections
-    - navigation.indexes
-    - content.code.copy
-    - search.highlight
-    - search.suggest
-    - header.autohide
+on:
+  push:
+    branches: ["main"]
 
-nav:
-  - Início: index.md
-  - Use Cases:
-      - Automação Total – LG Build & Academy: use-cases/lg-beauty-academy-automacao-total.md
-  - Guias:
-      - Integração Odoo + n8n: guias/odoo-n8n.md
-      - Pagamentos MB WAY: guias/pagamentos-mbway.md
-  - API:
-      - Introdução: api/index.md
-  - Empresa:
-      - Sobre: empresa/sobre.md
-site_name: MF Tech Solutions Docs
-site_url: https://git.mftechsolutions.pt
-site_author: MF Tech Solutions
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
-theme:
-  name: material
-  custom_dir: overrides
-  language: pt
-  palette:
-    primary: custom
-    accent: custom
-  font:
-    text: "Poppins"
-    code: "Fira Code"
-  logo: assets/logo-branco.png
-  favicon: assets/favicon.png
-  features:
-    - navigation.tabs
-    - navigation.instant
-    - navigation.sections
-    - navigation.indexes
-    - header.autohide
-    - content.code.copy
-    - content.code.annotate
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
-extra_css:
-  - styles.css
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-nav:
-  - Início: index.md
-  - Use Cases:
-      - Automação Total – LG Build & Academy: use-cases/lg-beauty-academy-automacao-total.md
-  - Documentações:
-      - APIs: api/index.md
-      - Guias:
-          - Integração Odoo + n8n: guias/odoo-n8n.md
-          - Pagamentos MB WAY: guias/pagamentos-mbway.md
-  - Empresa:
-      - Sobre: empresa/sobre.md
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-extra:
-  homepage_banner: true
-  homepage_cards: true
-  whatsapp_button: "+351910680449"
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material mkdocs-minify-plugin
 
-plugins:
-  - search
-  - tags
-  - minify:
-      minify_html: true
+      - name: Build MkDocs site
+        run: mkdocs build --strict --clean
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/37996/manoelfigueiredo-docs
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/manoel-figueiredo
-    - icon: fontawesome/solid/globe
-      link: https://www.mftechsolutions.pt
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
