@@ -1,52 +1,33 @@
-name: Deploy MKDocs to GitHub Pages
+site_name: MF Tech Solutions – Documentação Oficial
+site_description: Documentação técnica, estratégica e operacional da MF Tech Solutions.
+site_url: https://git.mftechsolutions.pt
 
-on:
-  push:
-    branches: ["main"]
+theme:
+  name: material
+  language: pt
+  palette:
+    scheme: slate
+    primary: orange
+    accent: deep orange
+  logo: assets/logo-laranja.png
+  favicon: assets/favicon.png
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+nav:
+  - Início: index.md
+  - Casos de Uso:
+      - LG Beauty & Academy – Automação Total: use-cases/lg-beauty-academy-automacao-total.md
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: |
-          pip install mkdocs-material mkdocs-minify-plugin
-
-      - name: Build MkDocs site
-        run: mkdocs build --strict --clean
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./site
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+plugins:
+  - search
+  - minify:
+      minify_html: true
