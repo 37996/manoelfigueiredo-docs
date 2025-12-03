@@ -22,12 +22,14 @@ Implementação completa de um ecossistema de automação que transformou a oper
 **Principais soluções implementadas:**
 - Automação de iluminação ambiente e integração com Alexa  
 - Sistema de música ambiente automatizada  
-- Agendamentos automatizados para clientes e alunas  
+- Agendamentos automatizados para clientes e alunas
+- Email profissional lg@beautyeacademy.pt  
 - CRM personalizado com IA e WhatsApp automatizado  
 - Faturação e contabilidade automatizadas (e-Fatura / e-invoice)  
 - Sistema financeiro centralizado com controlo completo  
 - Pagamentos via MB WAY ilimitado, cartões, multi-moeda e pagamentos parcelados via Klarna  
 - Integração completa entre Odoo, n8n, Cloudflare Workers e IA (GPT)
+- Google Meu Negócio + Cartão NFC com QRCode
 
 ---
 
@@ -74,5 +76,5 @@ Este repositório serve como:
 ## 📬 Contacto
 
 **MF Tech Solutions – Tecnologia com Inteligência e Automação**  
-Website: https://mftechsolutions.pt  
-E-mail: contacto@mftechsolutions.pt  
+Website: https://www.mftechsolutions.pt  
+E-mail: manoel@mftechsolutions.pt  
