@@ -1,10 +1,42 @@
-{% if config.extra.homepage_banner %}
-<div class="hero">
-  <h1>Documentação Oficial MF Tech Solutions</h1>
-  <p>Automação, IA, Websites, Integrações e Processos — tudo num só lugar.</p>
+<style>
+.hero-section {
+  position: relative;
+  padding: 160px 20px;
+  background-image: url('../assets/manoel-palestra.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* PARALLAX */
+  color: white;
+  text-align: center;
+}
 
-  <img src="assets/manoel-palestra.jpg" 
-       alt="Manoel Costa Figueiredo Filho palestrando"
-       style="max-width: 450px; margin-top: 40px; border-radius: 12px;">
-</div>
-{% endif %}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 80px 20px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 3.3rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.hero-sub {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 750px;
+  margin: 0 auto;
+}
+</style>
+
+<section class="hero-section">
+  <div class="hero-overlay">
+    <div class="hero-title">Automatize Seu Negócio com Alta Performance</div>
+    <div class="hero-sub">
+      Sistemas de IA, CRM, ERP, Pagamentos MB WAY, Odoo, Automatizações com n8n,
+      Cloudflare Workers e Web3 para negócios que querem crescer exponencialmente.
+    </div>
+  </div>
+</section>

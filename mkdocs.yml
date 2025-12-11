@@ -4,6 +4,7 @@ site_url: https://git.mftechsolutions.pt
 
 theme:
   name: material
+  custom_dir: overrides
   language: pt
   palette:
     scheme: slate

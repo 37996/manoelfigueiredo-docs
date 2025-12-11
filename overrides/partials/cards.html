@@ -1,29 +1,60 @@
-{% if config.extra.homepage_cards %}
+<style>
+.cards-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 60px auto;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 14px;
+  width: 300px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform .3s, box-shadow .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #ff9800;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  opacity: .85;
+}
+</style>
+
 <div class="cards-container">
 
   <div class="card">
-    <h3>Use Cases</h3>
-    <p>Casos reais de automação aplicada a negócios.</p>
-    <a href="use-cases/lg-beauty-academy-automacao-total/">Ver detalhes →</a>
+    <div class="card-title">Casos de Uso Reais</div>
+    <div class="card-text">
+      Projetos como LG Beauty & Academy com automação total: IA, Alexa, CRM, ERP e mais.
+    </div>
   </div>
 
   <div class="card">
-    <h3>Integrações</h3>
-    <p>Odoo, n8n, WhatsApp, Cloudflare Workers, MB WAY.</p>
-    <a href="guias/odoo-n8n/">Explorar →</a>
+    <div class="card-title">Integrações Profissionais</div>
+    <div class="card-text">
+      n8n, Cloudflare, Odoo, APIs internas, pagamentos MB WAY, Webhooks e automações avançadas.
+    </div>
   </div>
 
   <div class="card">
-    <h3>APIs</h3>
-    <p>Documentação de endpoints internos e externos.</p>
-    <a href="api/">Consultar →</a>
-  </div>
-
-  <div class="card">
-    <h3>Empresa</h3>
-    <p>Sobre, missão, visão e metodologia.</p>
-    <a href="empresa/sobre/">Mais →</a>
+    <div class="card-title">Finanças & Faturação</div>
+    <div class="card-text">
+      E-fatura, faturação automatizada, controlo financeiro centralizado e pagamentos multi-moeda.
+    </div>
   </div>
 
 </div>
-{% endif %}
