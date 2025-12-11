@@ -36,12 +36,22 @@ Implementação completa de um ecossistema de automação que transformou a oper
 ## 📘 Guias e Tutoriais
 *(Em construção – serão adicionados progressivamente)*
 
-- Integração Odoo + n8n  
-- Pagamentos automatizados (MB WAY, Multibanco, Cartões, Klarna)  
-- WhatsApp Automatizado  
-- Cloudflare Workers para automações  
-- Inteligência Artificial aplicada a negócios  
-- Gestão de CRM para a área da estética  
+- Integração Odoo + n8n
+- Pagamentos automatizados (MB WAY, Multibanco, Cartões, Klarna)
+- WhatsApp Automatizado
+- Cloudflare Workers para automações
+- Inteligência Artificial aplicada a negócios
+- Gestão de CRM para a área da estética
+
+---
+
+## 🏌️ Jornadas
+
+### **Do Zero ao Handicap Zero**
+**Status:** Em documentação contínua
+**Link:** [`./jornadas/hcp-zero.md`](docs/jornadas/hcp-zero.md)
+
+Projeto público que acompanha a evolução do Manoel Figueiredo rumo ao Handicap 0 no golfe, com métricas semanais, automações e plano completo de treino.
 
 ---
 
