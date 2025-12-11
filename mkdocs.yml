@@ -17,6 +17,8 @@ nav:
   - Início: index.md
   - Casos de Uso:
       - LG Beauty & Academy – Automação Total: use-cases/lg-beauty-academy-automacao-total.md
+  - Jornadas:
+      - Do Zero ao Handicap Zero: jornadas/hcp-zero.md
 
 markdown_extensions:
   - admonition
