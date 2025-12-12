@@ -11,7 +11,7 @@
 - **Nome do desafio**: HCP Zero
 - **Meta**: Chegar ao handicap 0 até o final de 2026
 - **Começo da jornada**: 14/06/2024 – Primeira tacada e primeira aula
-- **Primeiro torneio federado**: 01/05/2025 (HCP inicial 52.7)
+- **Primeiro jogo federado**: 01/05/2025 (HCP inicial 52.7)
 - **Contexto**: 37 anos, 180cm, 112kg, alto nível de stress profissional e burnout iminente
 - **Transformação**: O golfe se tornou uma salvação e ferramenta de reconstrução pessoal
 
@@ -19,8 +19,8 @@
 
 ## 🎯 Objetivos
 
-- Reduzir o handicap de 52.7 para 0
-- Reduzir gordura corporal de 36.2% para <18%
+- Reduzir o handicap de 52.7 para 0 - ██████████░░░░░░░░░░` **49,3%** concluídos
+- Reduzir gordura corporal de 36.2% para <18% - █░░░░░░░░░░░░░░░░░░░` **7,7%**
 - Reduzir IMC de 34.8 para <25
 - Aumentar performance física, mental e técnica
 - Criar uma rotina documentada de treino físico + treino técnico + mentalidade vencedora
