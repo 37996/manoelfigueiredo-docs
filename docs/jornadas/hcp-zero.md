@@ -62,10 +62,10 @@
 ## 📆 Linha do Tempo da Jornada
 
 - **14/06/2024**: Primeira aula de golfe
-- **01/05/2025**: Primeira competição oficial + primeiro HCP: 52.7
-- **04/07/2025**: Segunda competição, SD 30.0
+- **01/05/2025**: Primeiro jogo  oficial + primeiro HCP: 52.7
+- **04/07/2025**: Segundo jogo, SD 30.0
 - **21/09/2025**: Grande Prémio ACP Golfe – SD 34.7, HCP ajustado para 26.0
-- **01/10/2025**: Criação oficial do projeto **HCP Zero**
+- **10/12/2025**: Criação oficial do projeto **HCP Zero**
 
 ---
 
@@ -73,7 +73,7 @@
 
 | Tipo de Conteúdo             | Hashtag           | Descrição                                                    |
 |-----------------------------|-------------------|---------------------------------------------------------------|
-| Dia de treino físico         | #hcpzero_físico   | Mostra academia, exercícios para mobilidade e potência        |
+| Dia de treino físico         | #hcpzero_físico   | Mostra exercícios para mobilidade e potência        |
 | Dia de campo                 | #hcpzero_campo    | Jogadas reais, acertos e erros, sem cortes                    |
 | Drive range + métricas       | #hcpzero_métricas | Comparação entre sessões, dados de distância e dispersão      |
 | Teste de tacos               | #hcpzero_tacos    | Avaliação e troca de tacos, testes de driver e ferros         |
@@ -98,7 +98,6 @@
 - Mapa interativo dos campos jogados com anotações buraco a buraco
 - Sistema de IA para traçar plano de treino com base no HCP atual
 - Plataforma pública com gráficos em tempo real (via GitHub Pages)
-- NFT de acesso vitalício à comunidade
 
 ---
 
