@@ -69,22 +69,6 @@
 
 ---
 
-## 🔁 Estrutura de Conteúdo no TikTok
-
-| Tipo de Conteúdo             | Hashtag           | Descrição                                                    |
-|-----------------------------|-------------------|---------------------------------------------------------------|
-| Dia de treino físico         | #hcpzero_físico   | Mostra exercícios para mobilidade e potência        |
-| Dia de campo                 | #hcpzero_campo    | Jogadas reais, acertos e erros, sem cortes                    |
-| Drive range + métricas       | #hcpzero_métricas | Comparação entre sessões, dados de distância e dispersão      |
-| Teste de tacos               | #hcpzero_tacos    | Avaliação e troca de tacos, testes de driver e ferros         |
-| Automação e IA               | #hcpzero_tech     | Como tecnologia me ajuda a melhorar no golfe e na vida        |
-| Gráficos da evolução         | #hcpzero_dados    | IMC, gordura, massa magra, score diff — tudo em gráficos      |
-| Mentalidade e foco           | #hcpzero_mental   | Dicas práticas de mindset, gestão de frustração, foco          |
-| Bastidores e desafios reais  | #hcpzero_vida     | Como conciliar empresa, família, treino e competição          |
-| Episódio especial do grupo   | #hcpzero_grupo    | Participação da comunidade do grupo WhatsApp                  |
-
----
-
 ## 💬 Comunidade HCP Zero
 
 - **Grupo no WhatsApp**: acesso por convite, discussões sobre treino, campo e IA
