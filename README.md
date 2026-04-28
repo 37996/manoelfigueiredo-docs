@@ -6,6 +6,22 @@ O objetivo é consolidar conhecimento, fornecer referência para clientes e parc
 
 ---
 
+## 👤 Manoel Figueiredo
+
+Perfil profissional, história, projetos, habilidades e visão de liderança do fundador da MF Tech Solutions.
+
+**Destaques:**
+- +18 anos de experiência em tecnologia
+- Bacharel em Engenharia de Software pela UFAM
+- Experiência em infraestrutura crítica, datacenter, redes, segurança, ERP, POS e gestão de identidades
+- Atuação em ambientes com +140 lojas, +850 colaboradores e centenas de contas corporativas
+- Fundador da MF Tech Solutions, integradora de ERP, IA, automação, CRM, pagamentos e infraestrutura digital
+- Histórico de projetos em educação, retalho, estética, e-commerce e serviços
+
+**Link:** [`./docs/manoel-figueiredo/index.md`](docs/manoel-figueiredo/index.md)
+
+---
+
 ## 📌 Casos de Uso (Use Cases)
 
 ### **1. LG Build & Academy – Automação Total do Negócio**
@@ -49,7 +65,7 @@ Implementação completa de um ecossistema de automação que transformou a oper
 
 ### **Do Zero ao Handicap Zero**
 **Status:** Em documentação contínua
-**Link:** [`./jornadas/hcp-zero.md`](docs/jornadas/hcp-zero.md)
+**Link:** [`./docs/jornadas/hcp-zero.md`](docs/jornadas/hcp-zero.md)
 
 Projeto público que acompanha a evolução do Manoel Figueiredo rumo ao Handicap 0 no golfe, com métricas semanais, automações e plano completo de treino.
 

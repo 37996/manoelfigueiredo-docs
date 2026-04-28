@@ -15,6 +15,15 @@ theme:
 
 nav:
   - Início: index.md
+  - Manoel Figueiredo:
+      - Visão Geral: manoel-figueiredo/index.md
+      - História: manoel-figueiredo/historia.md
+      - Experiência: manoel-figueiredo/experiencia.md
+      - Projetos: manoel-figueiredo/projetos.md
+      - Habilidades: manoel-figueiredo/habilidades.md
+      - Liderança: manoel-figueiredo/lideranca.md
+      - Missão, Visão e Valores: manoel-figueiredo/missao-visao-valores.md
+      - Media Kit: manoel-figueiredo/media-kit.md
   - Casos de Uso:
       - LG Beauty & Academy – Automação Total: use-cases/lg-beauty-academy-automacao-total.md
   - Jornadas:
