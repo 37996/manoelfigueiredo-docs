@@ -1,67 +1,21 @@
-<style>
-.cards-container {
-  display: flex;
-  gap: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 60px auto;
-}
-
-.card {
-  background: #1e1e1e;
-  padding: 25px;
-  border-radius: 14px;
-  width: 300px;
-  text-align: left;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform .3s, box-shadow .3s;
-}
-
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.4);
-}
-
-.card-title {
-  font-size: 1.4rem;
-  color: #ff9800;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.card-text {
-  opacity: .85;
-}
-</style>
-
-<div class="cards-container">
-
-  <div class="card">
-    <div class="card-title">Casos de Uso Reais</div>
-    <div class="card-text">
-      Projetos como LG Beauty & Academy com automação total: IA, Alexa, CRM, ERP e mais.
-    </div>
+<section class="mf-services" aria-labelledby="services-title">
+  <div class="mf-section-heading">
+    <span class="mf-eyebrow">O que fazemos</span>
+    <h2 id="services-title">Tecnologia aplicada a resultados reais</h2>
+    <p>Da estratégia à implementação: um ecossistema conectado para reduzir custos, ganhar tempo e criar previsibilidade.</p>
   </div>
-
-  <div class="card">
-    <div class="card-title">Integrações Profissionais</div>
-    <div class="card-text">
-      n8n, Cloudflare, Odoo, APIs internas, pagamentos MB WAY, Webhooks e automações avançadas.
-    </div>
+  <div class="mf-card-grid">
+    <a class="mf-card" href="{{ 'use-cases/lg-beauty-academy-automacao-total/' | url }}">
+      <span class="mf-card__number">01</span><span class="mf-card__icon" aria-hidden="true">✦</span>
+      <h3>Automação & IA</h3><p>Fluxos inteligentes que eliminam tarefas repetitivas e mantêm a sua equipa focada no cliente.</p><span class="mf-card__link">Conhecer o caso <b>→</b></span>
+    </a>
+    <a class="mf-card" href="{{ 'manoel-figueiredo/projetos/' | url }}">
+      <span class="mf-card__number">02</span><span class="mf-card__icon" aria-hidden="true">⌁</span>
+      <h3>Sistemas integrados</h3><p>ERP, CRM, pagamentos, APIs e dados a conversar num único fluxo operacional.</p><span class="mf-card__link">Explorar projetos <b>→</b></span>
+    </a>
+    <a class="mf-card" href="{{ 'manoel-figueiredo/habilidades/' | url }}">
+      <span class="mf-card__number">03</span><span class="mf-card__icon" aria-hidden="true">◈</span>
+      <h3>Infraestrutura & escala</h3><p>Ambientes seguros, resilientes e preparados para acompanhar o crescimento da empresa.</p><span class="mf-card__link">Ver competências <b>→</b></span>
+    </a>
   </div>
-
-  <div class="card">
-    <div class="card-title">Finanças & Faturação</div>
-    <div class="card-text">
-      E-fatura, faturação automatizada, controlo financeiro centralizado e pagamentos multi-moeda.
-    </div>
-  </div>
-
-  <a class="card" href="/jornadas/hcp-zero/">
-    <div class="card-title">Do Zero ao Handicap Zero</div>
-    <div class="card-text">
-      Jornada pública rumo ao handicap 0 com métricas semanais, automações e plano completo de treino.
-    </div>
-  </a>
-
-</div>
+</section>
