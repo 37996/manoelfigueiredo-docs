@@ -1,42 +1,21 @@
-<style>
-.hero-section {
-  position: relative;
-  padding: 160px 20px;
-  background-image: url('../assets/manoel-palestra.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* PARALLAX */
-  color: white;
-  text-align: center;
-}
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.55);
-  padding: 80px 20px;
-  border-radius: 12px;
-  display: inline-block;
-}
-
-.hero-title {
-  font-size: 3.3rem;
-  font-weight: 800;
-  margin-bottom: 15px;
-}
-
-.hero-sub {
-  font-size: 1.3rem;
-  opacity: 0.9;
-  max-width: 750px;
-  margin: 0 auto;
-}
-</style>
-
-<section class="hero-section">
-  <div class="hero-overlay">
-    <div class="hero-title">Automatize Seu Negócio com Alta Performance</div>
-    <div class="hero-sub">
-      Sistemas de IA, CRM, ERP, Pagamentos MB WAY, Odoo, Automatizações com n8n,
-      Cloudflare Workers e Web3 para negócios que querem crescer exponencialmente.
+<section class="mf-hero" aria-labelledby="hero-title">
+  <div class="mf-hero__glow" aria-hidden="true"></div>
+  <div class="mf-hero__content">
+    <span class="mf-eyebrow">Tecnologia que trabalha pelo seu negócio</span>
+    <h1 id="hero-title">Menos tarefas.<br><span>Mais crescimento.</span></h1>
+    <p>Transformamos processos complexos em operações simples, integradas e preparadas para escalar — com automação, IA, ERP e CRM.</p>
+    <div class="mf-hero__actions">
+      <a class="mf-button mf-button--primary" href="https://wa.me/351910680449?text=Ol%C3%A1%2C%20quero%20automatizar%20o%20meu%20neg%C3%B3cio" target="_blank" rel="noopener">Falar com um especialista <span aria-hidden="true">→</span></a>
+      <a class="mf-button mf-button--ghost" href="{{ 'use-cases/lg-beauty-academy-automacao-total/' | url }}">Ver caso de sucesso</a>
     </div>
+    <ul class="mf-proof" aria-label="Resultados da MF Tech Solutions">
+      <li><strong>18+</strong><span>anos em tecnologia</span></li>
+      <li><strong>50+</strong><span>sistemas integrados</span></li>
+      <li><strong>30+</strong><span>sites desenvolvidos</span></li>
+    </ul>
+  </div>
+  <div class="mf-hero__visual" aria-hidden="true">
+    <img src="{{ 'assets/manoel-palestra.jpg' | url }}" alt="" width="1200" height="800">
+    <div class="mf-float-card"><span class="mf-float-card__icon">↗</span><div><strong>Operação integrada</strong><small>Dados, vendas e atendimento</small></div></div>
   </div>
 </section>
