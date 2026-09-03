@@ -11,7 +11,7 @@ O objetivo é consolidar conhecimento, fornecer referência para clientes e parc
 Perfil profissional, história, projetos, habilidades e visão de liderança do fundador da MF Tech Solutions.
 
 **Destaques:**
-- +18 anos de experiência em tecnologia
+- +20 anos de experiência em tecnologia
 - Bacharel em Engenharia de Software pela UFAM
 - Experiência em infraestrutura crítica, datacenter, redes, segurança, ERP, POS e gestão de identidades
 - Atuação em ambientes com +140 lojas, +850 colaboradores e centenas de contas corporativas
