@@ -1,0 +1,77 @@
+<section class="mf-commerce" aria-labelledby="commerce-title">
+  <div class="mf-section-heading mf-commerce__heading">
+    <span class="mf-eyebrow">Compra direta</span>
+    <h2 id="commerce-title">Coloque o seu negócio no mapa.</h2>
+    <p>Soluções simples para empresas que querem ser encontradas, transmitir confiança e gerar mais oportunidades.</p>
+  </div>
+
+  <div class="mf-product-grid">
+    <article class="mf-product-card">
+      <div class="mf-product-card__top">
+        <span class="mf-product-card__icon" aria-hidden="true">G</span>
+        <span class="mf-product-card__label">Presença local</span>
+      </div>
+      <h3>Presença no Google</h3>
+      <div class="mf-product-card__price"><strong>€149</strong><span>por serviço</span></div>
+      <p>Configure ou melhore a presença da sua empresa no Google para que potenciais clientes encontrem o seu negócio, contactos, localização, horários e serviços.</p>
+      <ul>
+        <li>Configuração/otimização do Perfil da Empresa no Google</li>
+        <li>Informações comerciais organizadas</li>
+        <li>Serviços, horários e contactos</li>
+        <li>Presença no Google Maps</li>
+        <li>Orientação para melhorar a presença local</li>
+      </ul>
+      <div class="mf-product-card__buy">
+        <!--
+          Este Buy Button ID está associado EXCLUSIVAMENTE a Presença no Google (€149).
+          No Stripe, defina a página pós-pagamento como /obrigado/google/.
+        -->
+        <stripe-buy-button
+          buy-button-id="buy_btn_1UAYFo2UzMX9TikSmmWtQMpu"
+          publishable-key="pk_live_51PU4iu2UzMX9TikSfQSqU4eUlaNlFoWhBc9tHPugrlkl2Js1bgGWjZlSfRlFM7SXjaYnhQwXOXKoywYhgEdfhMBG0067GWcn5G">
+        </stripe-buy-button>
+        <span class="mf-product-card__cta-label">Quero melhorar minha presença no Google</span>
+      </div>
+    </article>
+
+    <article class="mf-product-card">
+      <div class="mf-product-card__top">
+        <span class="mf-product-card__icon" aria-hidden="true">↗</span>
+        <span class="mf-product-card__label">Conversão digital</span>
+      </div>
+      <h3>Landing Page Profissional</h3>
+      <div class="mf-product-card__price"><strong>€149</strong><span>por serviço</span></div>
+      <p>Uma página profissional para apresentar a sua empresa, serviços e contactos e transformar visitantes em potenciais clientes.</p>
+      <ul>
+        <li>Landing page profissional</li>
+        <li>Adaptada a telemóvel</li>
+        <li>Apresentação dos serviços</li>
+        <li>Contactos e chamadas para ação</li>
+        <li>Estrutura focada em conversão</li>
+      </ul>
+      <div class="mf-product-card__buy mf-product-card__buy--pending">
+        <!--
+          STRIPE — LANDING PAGE (€149)
+          Insira abaixo um Buy Button ID próprio deste produto.
+          Não reutilize o ID do serviço Presença no Google.
+
+          <stripe-buy-button
+            buy-button-id="INSERIR_BUY_BUTTON_ID_DA_LANDING_PAGE"
+            publishable-key="pk_live_51PU4iu2UzMX9TikSfQSqU4eUlaNlFoWhBc9tHPugrlkl2Js1bgGWjZlSfRlFM7SXjaYnhQwXOXKoywYhgEdfhMBG0067GWcn5G">
+          </stripe-buy-button>
+        -->
+        <span class="mf-payment-pending">Pagamento online em configuração</span>
+        <span class="mf-product-card__cta-label">Quero a minha Landing Page</span>
+      </div>
+    </article>
+  </div>
+
+  <p class="mf-commerce__note"><strong>Precisa dos dois?</strong> Pode contratar a Presença no Google e a Landing Page separadamente — <strong>€149 cada.</strong></p>
+  <div class="mf-purchase-flow" aria-label="Como funciona a compra">
+    <span><b>1</b> Escolha o serviço</span><i aria-hidden="true">→</i>
+    <span><b>2</b> Pague €149</span><i aria-hidden="true">→</i>
+    <span><b>3</b> Inicie o onboarding</span>
+  </div>
+</section>
+
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>

@@ -78,9 +78,47 @@ body { background: var(--mf-bg); }
 .mf-card__icon { display:grid; place-items:center; width:48px;height:48px;margin-bottom:1.8rem;border-radius:14px;background:rgba(255,118,38,.12);color:var(--mf-orange);font-size:1.25rem; }
 .mf-card h3 { margin:0 0 .7rem; color:white;font-size:1.15rem; }.mf-card p{color:var(--mf-muted);font-size:.74rem;line-height:1.65}.mf-card__link{position:absolute;left:1.6rem;bottom:1.4rem;color:var(--mf-orange-light);font-size:.7rem;font-weight:700}.mf-card__link b{display:inline-block;margin-left:.3rem;transition:transform .2s}.mf-card:hover .mf-card__link b{transform:translateX(4px)}
 
+/* Direct purchase */
+.mf-commerce { padding:clamp(3rem,8vw,6.5rem) 0; border-top:1px solid var(--mf-line); }
+.mf-commerce__heading { max-width:780px; }
+.mf-commerce__heading h2 { margin:.7rem 0 1rem; color:var(--mf-text); font:800 clamp(2rem,4vw,3.5rem)/1.1 "Manrope",sans-serif; letter-spacing:-.04em; }
+.mf-product-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.2rem; align-items:stretch; }
+.mf-product-card { display:flex; flex-direction:column; min-width:0; padding:clamp(1.4rem,3vw,2rem); border:1px solid var(--mf-line); border-radius:var(--mf-radius); background:linear-gradient(145deg,rgba(255,255,255,.065),rgba(255,255,255,.018)); box-shadow:0 22px 60px rgba(0,0,0,.18); }
+.mf-product-card__top { display:flex; align-items:center; gap:.65rem; margin-bottom:1.2rem; }
+.mf-product-card__icon { display:grid; place-items:center; width:38px; height:38px; flex:0 0 38px; border-radius:11px; background:rgba(255,118,38,.14); color:var(--mf-orange); font:800 .85rem "Manrope",sans-serif; }
+.mf-product-card__label { color:var(--mf-orange-light); font-size:.62rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.mf-product-card h3 { margin:0; color:white; font-size:clamp(1.35rem,2.5vw,1.8rem); }
+.mf-product-card__price { display:flex; align-items:baseline; gap:.65rem; margin:.65rem 0 1rem; }
+.mf-product-card__price strong { color:white; font:800 clamp(2.3rem,5vw,3.4rem)/1 "Manrope",sans-serif; letter-spacing:-.05em; }
+.mf-product-card__price span { padding:.28rem .55rem; border-radius:999px; background:rgba(255,118,38,.14); color:var(--mf-orange-light); font-size:.65rem; font-weight:800; text-transform:uppercase; }
+.mf-product-card > p { min-height:5.1em; margin:0 0 1.2rem; color:var(--mf-muted); font-size:.76rem; line-height:1.7; }
+.mf-product-card ul { flex:1; margin:0 0 1.5rem; padding:1.2rem 0 0; border-top:1px solid var(--mf-line); list-style:none; }
+.mf-product-card li { position:relative; margin:.55rem 0; padding-left:1.45rem; color:#dce2ea; font-size:.7rem; }
+.mf-product-card li::before { content:"✓"; position:absolute; left:0; color:var(--mf-orange); font-weight:800; }
+.mf-product-card__buy { min-height:106px; margin-top:auto; padding-top:1rem; border-top:1px solid var(--mf-line); text-align:center; }
+.mf-product-card__buy stripe-buy-button { display:block; width:100%; }
+.mf-product-card__cta-label { display:block; margin-top:.55rem; color:var(--mf-muted); font-size:.59rem; }
+.mf-product-card__buy--pending { display:flex; flex-direction:column; align-items:center; justify-content:center; border:1px dashed rgba(255,155,95,.35); border-radius:14px; background:rgba(255,118,38,.045); }
+.mf-payment-pending { color:#d9dee6; font-size:.7rem; font-weight:700; }
+.mf-commerce__note { max-width:750px; margin:1.4rem auto 0; padding:1rem 1.2rem; border:1px solid rgba(255,118,38,.25); border-radius:14px; background:rgba(255,118,38,.07); color:#cdd4de; text-align:center; font-size:.74rem; }
+.mf-commerce__note strong { color:white; }
+.mf-purchase-flow { display:flex; align-items:center; justify-content:center; gap:1rem; margin:1.3rem auto 0; color:var(--mf-muted); font-size:.65rem; }
+.mf-purchase-flow span { display:flex; align-items:center; gap:.45rem; }
+.mf-purchase-flow b { display:grid; place-items:center; width:24px; height:24px; border-radius:50%; background:var(--mf-surface-soft); color:var(--mf-orange-light); }
+.mf-purchase-flow i { color:var(--mf-orange); font-style:normal; }
+
 .mf-about { display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,7vw,7rem); padding:clamp(3rem,8vw,7rem) 0; border-top:1px solid var(--mf-line); }.mf-about p{color:var(--mf-muted);font-size:.86rem}.mf-text-link{display:inline-block;margin-top:.7rem;font-weight:700;text-decoration:none}
 .mf-case { margin:1rem 0 clamp(3rem,8vw,7rem); padding:clamp(1.6rem,5vw,4rem); border:1px solid var(--mf-line);border-radius:28px;background:linear-gradient(135deg,#151f2d,#0e151f); }.mf-case>p{max-width:700px;color:var(--mf-muted);font-size:.88rem}.mf-case__metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0}.mf-case__metrics div{padding:1rem 0;border-top:1px solid var(--mf-line)}.mf-case__metrics strong,.mf-case__metrics span{display:block}.mf-case__metrics strong{color:var(--mf-orange);font:800 clamp(1.6rem,4vw,2.5rem) "Manrope"}.mf-case__metrics span{color:var(--mf-muted);font-size:.67rem}
-.mf-final-cta { margin-bottom:4rem;padding:clamp(2rem,6vw,5rem);text-align:center;border-radius:28px;background:linear-gradient(135deg,#f06b1b,#c8460d);box-shadow:0 20px 70px rgba(236,104,28,.18)}.mf-final-cta .mf-eyebrow{color:#fff}.mf-final-cta .mf-eyebrow::before{background:white}.mf-final-cta h2{max-width:780px;margin:1rem auto 1.8rem;color:white}
+.mf-final-cta { margin-bottom:4rem;padding:clamp(2rem,6vw,5rem);text-align:center;border-radius:28px;background:linear-gradient(135deg,#f06b1b,#c8460d);box-shadow:0 20px 70px rgba(236,104,28,.18)}.mf-final-cta .mf-eyebrow{color:#fff}.mf-final-cta .mf-eyebrow::before{background:white}.mf-final-cta h2{max-width:780px;margin:1rem auto .8rem;color:white}.mf-final-cta p{margin:0 auto 1.8rem;color:#fff;font-weight:700}
+
+.mf-thank-you { max-width:760px; margin:clamp(2rem,8vw,7rem) auto; padding:clamp(1.6rem,5vw,4rem); border:1px solid var(--mf-line); border-radius:28px; background:linear-gradient(145deg,var(--mf-surface-soft),#0d141e); text-align:center; box-shadow:0 30px 80px rgba(0,0,0,.3); }
+.mf-thank-you__check { display:grid; place-items:center; width:64px; height:64px; margin:0 auto 1.2rem; border-radius:50%; background:rgba(31,186,96,.13); color:#45da83; font-size:1.8rem; }
+.mf-thank-you .mf-eyebrow::before { display:none; }
+.mf-thank-you h1 { margin:.6rem 0 .7rem; }
+.mf-thank-you p { max-width:590px; margin:.6rem auto; color:var(--mf-muted); }
+.mf-thank-you__lead { color:white!important; font-size:1rem; font-weight:700; }
+.mf-thank-you .mf-button { margin:1.4rem auto 1rem; }
+.mf-thank-you small { display:block; color:#8793a3; font-size:.62rem; }
 
 .whatsapp-float { position:fixed;z-index:50;right:1.2rem;bottom:1.2rem;display:flex;align-items:center;gap:.5rem;padding:.6rem .8rem;border-radius:999px;background:#20b858;color:white!important;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.35);font-size:.68rem;font-weight:700;transition:.2s }.whatsapp-float svg{width:27px;height:27px}.whatsapp-float:hover{transform:translateY(-3px);background:#25c761}
 
@@ -99,6 +137,7 @@ body { background: var(--mf-bg); }
   .mf-proof { justify-content:space-between;gap:.5rem }.mf-proof strong{font-size:1.12rem}.mf-proof span{max-width:80px;font-size:.55rem;line-height:1.35}
   .mf-hero__visual::before { inset:-8px 8px 8px -8px; }.mf-hero__visual img{aspect-ratio:1/1;}.mf-float-card{right:-4px;bottom:14px}
   .mf-services { padding:3.5rem 0; }.mf-card-grid{grid-template-columns:1fr}.mf-card:last-child{grid-column:auto}.mf-card{min-height:265px}
+  .mf-commerce { padding:3.5rem 0; }.mf-product-grid{grid-template-columns:1fr}.mf-product-card>p{min-height:0}.mf-product-card__price{align-items:center}.mf-purchase-flow{flex-direction:column;align-items:flex-start;width:max-content;gap:.55rem}.mf-purchase-flow i{display:none}
   .mf-about { grid-template-columns:1fr;gap:.5rem;padding:3.5rem 0 }.mf-about h2 br{display:none}
   .mf-case__metrics{grid-template-columns:1fr}.mf-case__metrics div{display:grid;grid-template-columns:100px 1fr;align-items:center;gap:.5rem}.mf-case__metrics strong{font-size:1.55rem}
   .mf-final-cta{border-radius:20px}.whatsapp-float span{display:none}.whatsapp-float{width:52px;height:52px;justify-content:center;padding:0;right:.8rem;bottom:.8rem}

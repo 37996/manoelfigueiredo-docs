@@ -6,7 +6,7 @@
   <div>
     <p>A MF Tech Solutions conecta tecnologia e negócio para que empresas em crescimento deixem de depender de processos manuais, sistemas isolados e decisões sem dados.</p>
     <p>Planeamos cada solução com foco em adoção, segurança e impacto mensurável — porque automação só faz sentido quando devolve tempo e reduz o caos.</p>
-    <a class="mf-text-link" href="manoel-figueiredo/index.md">Conheça Manoel e a MF Tech Solutions →</a>
+    <a class="mf-text-link" href="manoel-figueiredo/">Conheça Manoel e a MF Tech Solutions →</a>
   </div>
 </section>
 
@@ -19,11 +19,12 @@
     <div><strong>494</strong><span>interações diretas no perfil Google</span></div>
     <div><strong>24/7</strong><span>automações ativas</span></div>
   </div>
-  <a class="mf-button mf-button--primary" href="use-cases/lg-beauty-academy-automacao-total.md">Ler o caso completo <span aria-hidden="true">→</span></a>
+  <a class="mf-button mf-button--primary" href="use-cases/lg-beauty-academy-automacao-total/">Ler o caso completo <span aria-hidden="true">→</span></a>
 </section>
 
 <section class="mf-final-cta">
-  <span class="mf-eyebrow">Pronto para o próximo nível?</span>
+  <span class="mf-eyebrow">Consultoria individual</span>
   <h2>Descubra onde a tecnologia pode gerar mais impacto no seu negócio.</h2>
-  <a class="mf-button mf-button--light" href="https://wa.me/351910680449?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20do%20meu%20neg%C3%B3cio" target="_blank" rel="noopener">Agendar uma conversa →</a>
+  <p>30 minutos de consultoria estratégica por €20.</p>
+  <a class="mf-button mf-button--light" href="https://www.mftechsolutions.pt/book/a6f8fd54" target="_blank" rel="noopener">Agendar consultoria — €20 →</a>
 </section>
