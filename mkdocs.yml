@@ -12,6 +12,26 @@ theme:
     accent: deep orange
   logo: assets/logo-laranja.png
   favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/manoelfigueiredo/
+      name: Manoel Figueiredo no LinkedIn
+    - icon: fontawesome/brands/whatsapp
+      link: https://wa.me/351910680449
+      name: Falar com a MF Tech Solutions no WhatsApp
 
 nav:
   - Início: index.md

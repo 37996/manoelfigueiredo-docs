@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
-  {% include "partials/hero.html" %}
-  {% include "partials/cards.html" %}
+  {% if page.is_homepage %}
+    {% include "partials/hero.html" %}
+    {% include "partials/cards.html" %}
+    {% include "partials/direct-purchase.html" %}
+  {% endif %}
   {{ super() }}
   {% include "partials/whatsapp.html" %}
 {% endblock %}
