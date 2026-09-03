@@ -12,9 +12,9 @@ Ao longo da trajetória, liderou equipas, integrou sistemas, estruturou operaç�
 Na MF Tech Solutions, aplica esse repertório para ajudar empresas a reduzir caos operacional, integrar sistemas e transformar tecnologia em crescimento, previsibilidade e escala.
 
 ## Números de impacto
-- +18 anos em tecnologia
-- +140 lojas em ambiente corporativo atual
-- +850 colaboradores impactados por infraestrutura e gestão de acessos
+- +20 anos em tecnologia
+- +150 lojas em ambiente corporativo atual
+- +880 colaboradores impactados por infraestrutura e gestão de acessos
 - +400 contas de email geridas
 - ~800 contas em plataforma de aprendizagem
 - +50 sistemas integrados
